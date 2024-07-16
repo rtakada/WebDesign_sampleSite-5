@@ -1,0 +1,60 @@
+body{
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
+    width: 100%;
+}
+
+.system{
+    background-image: url(../img/system_01_bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    text-shadow:1px 1px 1px white,-1px 1px 1px white,1px -1px 1px white,-1px -1px 1px white;
+    padding-bottom: 20px;
+}
+
+
+.main p{
+    width: 240px;
+}
+
+.main h2{
+    text-align: center;
+}
+
+.btn1,.btn2{
+    display: flex;
+    margin: 30px;
+    padding: 15px;
+}
+
+.btn1 a,.btn2 a{
+    margin-right: 20px;
+}
+
+.btn1 .job,.btn2 .battle {
+    opacity: 0.5;
+}
+
+.btn1 img:hover,.btn2 img:hover{
+    opacity: 1;
+}
+
+#job .main{
+    padding-left: 20px;
+}
+
+#job .main img{
+    width: 45%;
+}
+
+.system h2{
+    font-weight: bold;
+    text-shadow:1px 1px 1px white,-1px 1px 1px white,1px -1px 1px white,-1px -1px 1px white;
+    padding-bottom: 20px;
+}

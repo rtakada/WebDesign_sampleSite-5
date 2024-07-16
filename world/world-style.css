@@ -1,0 +1,80 @@
+body{
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
+}
+
+.story{
+    background-image: url(../img/story_bg.png),url(../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 1000px;
+    margin: 0 auto 150px auto;
+    padding: 30px;
+    font-weight: bold;
+    text-shadow:1px 1px 1px white,-1px 1px 1px white,1px -1px 1px white,-1px -1px 1px white;
+}
+
+.island{
+    background-image: url(../img/island_bg.png),url(../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 1000px;
+    margin: 0 auto 150px auto;
+    padding: 30px;
+    font-weight: bold;
+    text-shadow:1px 1px 1px white,-1px 1px 1px white,1px -1px 1px white,-1px -1px 1px white;
+}
+
+
+.island_img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.island_img li{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.people{
+    background-image: url(../img/people_bg.png),url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1000px;
+    margin: 0 auto 150px auto;
+    padding: 30px;
+    font-weight: bold;
+    text-shadow:1px 1px 1px white,-1px 1px 1px white,1px -1px 1px white,-1px -1px 1px white;
+}
+
+
+
+.primal{
+    background-image: url(../img/primal_bg.png),url(../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 1000px;
+    margin: 0 auto 150px auto;
+    padding: 30px;
+    font-weight: bold;
+    text-shadow:1px 1px 1px white,-1px 1px 1px white,1px -1px 1px white,-1px -1px 1px white;
+}
+
+h2{
+    margin: 20px 30px 30px 30px;
+}
+
+.scroll_up{
+    transition: 0.8s ease-in-out;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.scroll_up.on{
+    transform: translateY(0);
+    opacity: 1.0;
+}
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTEM</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="system-style.css">
+    <link rel="icon" href="../img/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="../img/logo.png" alt="ロゴ">
+
+        <a href="../index.html">TOP</a>
+        <a href="../world/world.html">WORLD</a>
+        <a href="#" class="active">SYSTEM</a>
+        <a href="../characters/characters.html">CHARACTERS</a>
+    </header>
+
+    <h1>様々なバトルシステム</h1>
+
+    <div class="system" id="battle">
+        <div class="btn1">
+            <a href="#battle"><img src="../img/local_nav_01.png" alt="battle" class="battle"></a>
+            <a href="#job"><img src="../img/local_nav_02.png" alt="job" class="job"></a>
+        </div>
+
+        <div class="main">
+            <div>
+                <h2>属性</h2>
+                <img src="../img/属性.jpg" alt="属性" onmouseover="this.src='../img/属性.gif'" onmouseout="this.src='../img/属性.jpg'">
+                <p>6つの属性を使い分けバトルを有利に進めよう！</p>
+            </div>
+    
+            <div>
+                <h2>奥義</h2>
+                <img src="../img/奥義.jpg" alt="奥義" onmouseover="this.src='../img/奥義.gif'" onmouseout="this.src='../img/奥義.jpg'">
+                <p>ど派手な演出の奥義で大ダメージを狙え！</p>
+            </div>
+        
+            <div>
+                <h2>召喚</h2>
+                <img src="../img/召喚.jpg" alt="召喚" onmouseover="this.src='../img/召喚.gif'" onmouseout="this.src='../img/召喚.jpg'">
+                <p>星晶獣を召喚し、その大いなる力でバトルを有利に進めよう！</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="system" id="job">
+        <div class="btn2">
+            <a href="#battle"><img src="../img/local_nav_01.png" alt="battle" class="battle"></a>
+            <a href="#job"><img src="../img/local_nav_02.png" alt="job" class="job"></a>
+        </div>
+
+        <div class="main">
+            <div>
+                <h2>ヴァイキング</h2>
+                <div style="display: flex; justify-content: center;">
+                    <img src="../img/ヴァイキング-グラン.png" alt="ヴァイキング-グラン">
+                    <img src="../img/ヴァイキング-ジータ.png" alt="ヴァイキング-ジータ">
+                </div>
+            </div>
+
+            <div>
+                <h2>パラディン</h2>
+                <div style="display: flex; justify-content: center;">
+                    <img src="../img/パラディン-グラン.png" alt="">
+                <img src="../img/パラディン-ジータ.png" alt="">
+                </div>
+            </div>
+
+            <div>
+                <h2>パナケイア</h2>
+                <div style="display: flex; justify-content: center;">
+                    <img src="../img/パナケイア-グラン.png" alt="">
+                    <img src="../img/パナケイア-ジータ.png" alt="">
+                </div>
+            </div>
+
+            <div>
+                <h2>マナダイバー</h2>
+                <div style="display: flex; justify-content: center;">
+                    <img src="../img/マナダイバー-グラン.png" alt="">
+                <img src="../img/マナダイバー-ジータ.png" alt="">
+                </div>
+            </div>
+
+            <div>
+                <h2>キング</h2>
+                <div style="display: flex; justify-content: center;">
+                    <img src="../img/キング-グラン.png" alt="">
+                <img src="../img/キング-ジータ.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <h2>数多のジョブを使い分け勝利をつかめ！</h2>
+    </div>
+
+    <footer>
+        <p>&copy;Cygames, Inc.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="../js/characters.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+body{
+    font-family: 'Noto Serif JP', serif;
+    background-image: url(img/bg_static.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+   
+}
+
+header img{
+    width: 150px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 10px #79b2ec, -1px 1px 10px #79b2ec, 1px -1px 10px #79b2ec, -1px -1px 10px #79b2ec;
+}
+
+
+
+header a{
+    margin: 0 20px;
+    font-size: 20px;
+    
+    list-style: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-shadow:1px 1px 10px #000000,-1px 1px 10px #000000,1px -1px 10px #000000,-1px -1px 10px #000000;
+}
+
+.active{
+    color: white;
+    text-decoration: none;
+    text-shadow:1px 1px 10px #2366a9,-1px 1px 10px #2366a9,1px -1px 10px #2366a9,-1px -1px 10px #2366a9;
+}
+  
+header a:hover{
+    text-shadow:1px 1px 10px #2366a9,-1px 1px 10px #2366a9,1px -1px 10px #2366a9,-1px -1px 10px #2366a9;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    text-shadow:1px 1px 10px #000000,-1px 1px 10px #000000,1px -1px 10px #000000,-1px -1px 10px #000000;
+}
+
+

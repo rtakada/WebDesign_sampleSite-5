@@ -1,0 +1,101 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
+}
+
+h2,h3,p{
+    color: white;
+    text-decoration: none;
+    text-shadow:1px 1px 10px #000000,-1px 1px 10px #000000,1px -1px 10px #000000,-1px -1px 10px #000000;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+main{
+    width: 780px;
+    margin: 0 10px;
+    padding-bottom: 50px;
+}
+
+.sidebar{
+    width: 150px;
+    margin: 0 30px;
+    text-align: right;
+}
+
+aside{
+    position: sticky;
+    top: 0;
+}
+
+.sidebar li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-shadow:1px 1px 10px #000000,-1px 1px 10px #000000,1px -1px 10px #000000,-1px -1px 10px #000000;
+    
+}
+
+.sidebar a:hover{
+    text-shadow:1px 1px 10px #2366a9,-1px 1px 10px #2366a9,1px -1px 10px #2366a9,-1px -1px 10px #2366a9;
+}
+
+.characters{
+    display: flex;
+    align-items: flex-start;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.introduction{
+    display: flex;
+    background-image: url(../img/bg-char.png);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 493px;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+.introduction div{
+    align-items: center;
+}
+
+
+
+.introduction img{
+    width: 270px;
+    object-fit: cover;
+    display:inline-block;
+}
+
+.scroll_up{
+    transition: 0.8s ease-in-out;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.scroll_up.on{
+    transform: translateY(0);
+    opacity: 1.0;
+}
+
+.introduction_text{
+    width: 50%;
+    text-align: center;
+}
+
+.introduction_text p{
+    display: inline-block;
+    text-align: left;
+}
